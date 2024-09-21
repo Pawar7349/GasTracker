@@ -1,10 +1,12 @@
-Blockchain Gas Tracker
+## Blockchain Gas Tracker
 
-🚀 Overview
-Blockchain Gas Tracker is a real-time gas price monitoring app for the Ethereum blockchain. It helps users track current gas prices and transaction fees, built using Next.js and the MetaMask API.
+## 🚀 Overview
+Blockchain Gas Tracker is a real-time gas price monitoring app for the Ethereum blockchain.
+
+It helps users track current gas prices and transaction fees, built using Next.js and the MetaMask API.
 
 
-✨ Features
+## ✨ Features
 Display real-time gas prices for Ethereum transactions.
 User-friendly dashboard with responsive design.
 Data fetched directly from the MetaMask gas API.
@@ -12,7 +14,7 @@ Data fetched directly from the MetaMask gas API.
 
 
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 Next.js: For the frontend framework.
 Tailwind CSS: For UI styling and responsive design.
 MetaMask API: For fetching real-time gas prices.
@@ -25,7 +27,7 @@ Check out a live demo of the Gas Tracker here (add the link to your live project
 
 
 
-⚙️ Installation
+## ⚙️ Installation
 To run this project locally, follow these steps:
 
 Clone the repository:
@@ -55,49 +57,32 @@ Open http://localhost:3000 to view it in your browser.
 
 
 
-🧑‍💻 Usage
+## 🧑‍💻 Usage
 On the homepage, you’ll see the latest Ethereum gas prices fetched from the MetaMask API.
 The gas prices include low, medium, and high estimates, updated in real-time.
 
 
-
-
-📁 Project Structure
-lua
-Copy code
-|-- src
-|   |-- app
-|   |   |-- page.js           # Main homepage
-|   |-- components
-|   |   |-- GasCard.js        # Component to display gas prices
-|   |-- lib
-|   |   |-- getData.js        # Fetches gas price data from API
-|-- public
-|-- .env.local                 # Environment variables for API keys
-
-
-
-
-🛡 Security
+## 🛡 Security
 Gas prices are fetched securely using your Infura API Key.
 Always keep your API Key and API Secret safe in the .env.local file.
 
 
 
 
-🤝 Contributing
+## 🤝 Contributing
 Feel free to contribute! Please fork this repository, make your changes, and submit a pull request.
 
 
 
 
-📜 License
+## 📜 License
 This project is licensed under the MIT License.
 
 
 
-🙏 Acknowledgements
+## 🙏 Acknowledgements
 Next.js for the framework.
 Tailwind CSS for styling.
 MetaMask for the gas price API.
 Shadcn UI for UI components.
+
