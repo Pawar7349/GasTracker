@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Blockchain Gas Tracker
 
-## Getting Started
+🚀 Overview
+Blockchain Gas Tracker is a real-time gas price monitoring app for the Ethereum blockchain. It helps users track current gas prices and transaction fees, built using Next.js and the MetaMask API.
 
-First, run the development server:
+✨ Features
+Display real-time gas prices for Ethereum transactions.
+User-friendly dashboard with responsive design.
+Data fetched directly from the MetaMask gas API.
+🛠 Tech Stack
+Next.js: For the frontend framework.
+Tailwind CSS: For UI styling and responsive design.
+MetaMask API: For fetching real-time gas prices.
+Shadcn UI: For enhanced UI components.
+🎬 Demo
+Check out a live demo of the Gas Tracker here (add the link to your live project if hosted).
 
-```bash
+(Add a screenshot or GIF here)
+
+⚙️ Installation
+To run this project locally, follow these steps:
+
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/yourusername/blockchain-gas-tracker.git
+cd blockchain-gas-tracker
+Install dependencies:
+
+bash
+Copy code
+npm install
+Set up environment variables: Create a .env.local file and add your Infura API key and Infura API secret as shown below:
+
+bash
+Copy code
+INFURA_API_KEY=your_api_key
+INFURA_API_KEY_SECRET=your_api_secret
+Run the development server:
+
+bash
+Copy code
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open http://localhost:3000 to view it in your browser.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🧑‍💻 Usage
+On the homepage, you’ll see the latest Ethereum gas prices fetched from the MetaMask API.
+The gas prices include low, medium, and high estimates, updated in real-time.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+📁 Project Structure
+lua
+Copy code
+|-- src
+|   |-- app
+|   |   |-- page.js           # Main homepage
+|   |-- components
+|   |   |-- GasCard.js        # Component to display gas prices
+|   |-- lib
+|   |   |-- getData.js        # Fetches gas price data from API
+|-- public
+|-- .env.local                 # Environment variables for API keys
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+🛡 Security
+Gas prices are fetched securely using your Infura API Key.
+Always keep your API Key and API Secret safe in the .env.local file.
 
-## Learn More
+🤝 Contributing
+Feel free to contribute! Please fork this repository, make your changes, and submit a pull request.
 
-To learn more about Next.js, take a look at the following resources:
+📜 License
+This project is licensed under the MIT License.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+🙏 Acknowledgements
+Next.js for the framework.
+Tailwind CSS for styling.
+MetaMask for the gas price API.
+Shadcn UI for UI components.
